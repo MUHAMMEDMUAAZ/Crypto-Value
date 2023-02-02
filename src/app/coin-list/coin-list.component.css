@@ -1,0 +1,86 @@
+.header {
+    height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffff;
+
+}
+
+.header h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    letter-spacing: -.0003em;
+}
+
+.header h6 {
+    color: darkgray;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+}
+
+.banner {
+    background-image: url(../../assets/banner2.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.sub-header {
+    height: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+table {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+h5{
+    margin-top: 10px;
+    font-size: large;
+    color: #ffff;
+    font-weight: bold;
+}
+.text-danger{
+    margin-left: 5px;
+    background-color: rgb(146, 148, 149);
+    font-weight: 700;
+}
+.card-text{
+    font-weight: 600;
+    color: beige;
+    text-align: center;
+}
+.myr1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(125, 123, 123);
+}
+.myr{
+    display: block;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+mat-label{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 247, 247);
+}
+input{
+    color: black;
+}
